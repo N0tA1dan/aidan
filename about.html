@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>// About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="transition.css">
+</head>
+<body class="bg-white text-black font-mono tracking-wide">
+
+  <header class="flex justify-between items-center p-6 border-b-2 border-black uppercase">
+    <h1 class="text-2xl font-bold tracking-widest">零二 // ABOUT</h1>
+    <nav class="space-x-6 text-sm">
+      <a href="index.html" class="font-medium hover:underline nav-link">Home</a>
+      <a href="about.html" class="font-bold underline nav-link">About</a>
+      <a href="projects.html" class="font-medium hover:underline nav-link">Projects</a>
+      <a href="contact.html" class="font-medium hover:underline nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main class="flex flex-col items-center justify-center min-h-[80vh] p-10 space-y-8">
+    <h2 class="text-5xl font-bold">// About</h2>
+    <p class="max-w-2xl text-center text-gray-700 text-xl leading-relaxed">
+        My name is Aidan, I'm an 18 year old studying Computer Science and Engineering in California. I discovered programming at a very young age. I first got my hands on a raspberry pi around 10 years old, and I've been hooked ever since. I now focus my efforts into low-level projects such as compilers and reverse engineering tools which can be found on my github.
+    </p>
+    <div class="flex flex-col items-center justify-center space-y-2 mt-4">
+      <h3 class="text-2xl font-bold text-black">// Languages I'm familiar with</h3>
+      <div class="flex flex-row space-x-4 text-2xl font-bold mt-2">
+        <span>C</span>
+        <span>C++</span>
+        <span>Python</span>
+      </div>
+    </div>
+  </main>
+
+  <div id="pixel-overlay"></div>
+  <script src="transition.js"></script>
+</body>
+</html>
